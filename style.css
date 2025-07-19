@@ -1,0 +1,29 @@
+.container{
+    border:2px red solid;
+    width:500px;
+    height:500px;
+    display:flex;
+    flex-direction: column;
+    background-color: white;
+    margin:auto;
+}
+
+.column{
+    display:flex;
+    border:1px black solid;
+    flex:1;
+    
+}
+
+.row{
+     border:1px black solid;
+     flex:1;
+}
+
+#header{
+    display: flex;
+    flex-direction: column;
+    flex:0 0 auto;
+    align-items: center;
+    margin-bottom:20px;
+}
